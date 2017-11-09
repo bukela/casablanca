@@ -1,0 +1,17 @@
+# MCI-Drupal docker-compose.yml v1.1 see details in docs/docker-compose.yml
+
+
+core: "8.x"
+api: 2
+projects:
+  # Core
+  - drupal
+  # Modules
+  - admin_toolbar
+  - module_filter
+  - ctools
+  - pathauto
+
+defaults:
+  projects:
+    subdir: "contrib"
