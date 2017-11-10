@@ -1,0 +1,9 @@
+
+my_form.default_form:
+  path: '/my_form/form/default'
+  defaults:
+    _form: '\Drupal\my_form\Form\DefaultForm'
+    _title: 'DefaultForm'
+  requirements:
+    _access: 'TRUE'
+  
